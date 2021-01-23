@@ -7,4 +7,4 @@ import common from './module.js';
 common.hello();
 common.goodbye();
 let num = 1;
-num = "hello";
+num = "hello2";
