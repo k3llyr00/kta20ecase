@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "sass": "sass style.scss style.css --watch"
+    "sass": "sass style.scss style.css --watch",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "parcel-bundler": "^1.12.4",
     "sass": "^1.32.5"
   }
 }
