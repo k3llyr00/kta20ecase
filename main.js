@@ -1,5 +1,5 @@
-let el = document.getElementById('title');
-el.innerHTML = "Hello pure js";
+// let el = document.getElementById('title');
+// el.innerHTML = "Hello pure js";
 
 
 import Vue from 'vue/dist/vue.common.js';
