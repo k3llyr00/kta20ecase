@@ -18,8 +18,12 @@
     <link rel="stylesheet" href="style.scss">
 </head>
 <body>
-    <button class="button">Click me</button>
-    <input type="text" placeholder="Algväärtus">
+    <h1 class="is-size-1" id="title"></h1>
+    <div id="app">
+        <input class="input" type="text" v-model="message">
+        <h1 class="is-size-1">{{ message }}</h1>
+        <demo></demo>
+    </div>
     <script src="./main.js"></script>
 </body>
 </html>
